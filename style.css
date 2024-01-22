@@ -1,0 +1,68 @@
+*{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    justify-content: space-between;
+    background-image: url(https://media.istockphoto.com/id/961633870/photo/asphalt-road-and-hills-with-clouds-landscape-at-sunset.jpg?s=612x612&w=0&k=20&c=YE3Yv6YUduNzjT8krxbG3XgSEcJHVFFnMY22caSBmf4=);
+    background-size: cover;
+    
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu p{
+    padding: 20px;
+}
+.menu p:hover{
+    border: 1px solid black;
+    background: linear-gradient(black,white);
+    border-radius: 5px 30px;
+    transition: all 2s;
+    transform: scale(0.9,0.9);
+}   
+a{  
+    text-decoration: none;
+    color: black;
+}
+p:hover > a{
+    color: white;
+}
+h1{ 
+    color: white;
+    font-size: 35px;
+    padding-left: 20px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 60px;
+}
+.colors div{
+    margin: 50px;
+    padding: 200px;
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.color1{
+    background-color: aqua;   
+}
+.color2{
+    background-color: red;
+}
+.color3{
+    background-color: green;
+}
+.color4{
+    background-color: yellow;
+}
+.color5{
+    background-color: orange;
+}
